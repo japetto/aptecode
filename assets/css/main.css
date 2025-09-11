@@ -12363,7 +12363,7 @@ START: Project CSS
   z-index: 1;
 }
 .project-box-2:before {
-  background: linear-gradient(180deg, rgba(8, 19, 78, 0) 47.46%, #0b1b76 100%);
+  background: linear-gradient(180deg, rgba(168, 104, 250, 0) 47%, #a868fa 100%);
   mix-blend-mode: normal;
   content: "";
   width: 100%;
