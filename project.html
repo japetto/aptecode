@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Explore Aptecode's portfolio of custom web development projects, responsive websites, and web applications across various industries.">
+
+        <!-- Site Title -->
+        <title>Portfolio - Aptecode Web Development Projects</title>
+
+        <!-- favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/css/venobox.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/carouselTicker.css">
+        <link rel="stylesheet" href="assets/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+
+    <body>
+
+        <div class="line-wrap">
+            <div class="line"><span></span></div>
+            <div class="line"><span></span></div>
+            <div class="line"><span></span></div>
+        </div>
+
+        <!-- header start -->
+        <header class= "header header-8 sticky-active">
+            <div class="primary-header">
+                <div class="primary-header-inner">
+                    <div class="header-logo d-lg-block">
+                        <a href="index.html">
+                            <img class="logo-dark" src="assets/img/logo/aptecode.png" alt="Aptecode Logo">
+                            <img class="logo-light" src="assets/img/logo/aptecode.png" alt="Aptecode Logo">
+                        </a>
+                    </div>
+                    <div class="header-menu-wrap">
+                        <div class="mobile-menu-items">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Aptecode</a></li>
+                                <li><a href="service.html">Our Services</a></li>
+                                <li class="active"><a href="project.html">Portfolio</a></li>
+                                <!-- <li><a href="#blog">Blog</a></li> -->
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right-wrap">
+                        <div class="header-right">
+                            <div class="header-btn">
+                                <a href="contact.html" class="rr-primary-btn">Get a Free Consultation <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="sidebar-icon">
+                                <button class="sidebar-trigger open">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.5 0.5H4.5V4.5H0.5V0.5ZM0.5 9.5H4.5V13.5H0.5V9.5ZM0.5 18.5H4.5V22.5H0.5V18.5ZM9.5 0.5H13.5V4.5H9.5V0.5ZM9.5 9.5H13.5V13.5H9.5V9.5ZM9.5 18.5H13.5V22.5H9.5V18.5ZM18.5 0.5H22.5V4.5H18.5V0.5ZM18.5 9.5H22.5V13.5H18.5V9.5ZM18.5 18.5H22.5V22.5H18.5V18.5Z" fill="currentColor" stroke="currentColor"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </header>
+        <!-- /.Main Header -->
+
+        <div id="popup-search-box">
+            <div class="box-inner-wrap d-flex align-items-center">
+                <form id="form" action="#" method="get" role="search">
+                    <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+                </form>
+                <div class="search-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <!-- /#popup-search-box -->
+
+        <div id="sidebar-area" class="sidebar-area">
+            <button class="sidebar-trigger close">
+                <svg
+                    class="sidebar-close"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="16px"
+                    height="12.7px"
+                    viewBox="0 0 16 12.7"
+                    style="enable-background: new 0 0 16 12.7"
+                    xml:space="preserve"
+                >
+                    <g>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                    </g>
+                </svg>
+            </button>
+            <div class="side-menu-content">
+                <div class="side-menu-logo">
+                    <a class="dark-img" href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a>
+                    <a class="light-img" href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a>
+                </div>
+                <div class="side-menu-wrap"></div>
+                <div class="side-menu-about">
+                    <div class="side-menu-header">
+                        <h3>About Aptecode</h3>
+                    </div>
+                    <p>Aptecode specializes in building GEO & SEO friendly web apps, custom software, websites, and crypto social services. We help businesses grow online and in the crypto community.</p>
+                    <a href="contact.html" class="rr-primary-btn">Contact Us</a>
+                </div>
+                <div class="side-menu-contact">
+                    <div class="side-menu-header">
+                        <h3>Contact Aptecode</h3>
+                    </div>
+                    <ul class="side-menu-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Ozark, AL, United States</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+13342007299">+1 334-200-7299</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open-text"></i>
+                            <a href="mailto:support@ivey.solutions">support@ivey.solutions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="side-menu-social">
+                    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=61580863580433" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/company/101607358/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/.sidebar-area-->
+
+        <div id="preloader">
+            <div class="loading" data-loading-text="Aptecode"></div>
+        </div>
+        <!-- ./ preloader -->
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+        <section class="page-header" data-background="assets/img/bg-img/cta-bg-2.png">
+            <div class="overlay"></div>
+            <div class="shapes">
+                <div class="shape shape-1"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+                <div class="shape shape-2"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+                <div class="shape shape-3"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+            </div>
+            <div class="container">
+                <div class="page-header-content text-center">
+                    <h1 class="title">Our Portfolio</h1>
+                    <h4 class="sub-title"><a class="home" href="index.html">Home </a><span></span><a class="inner-page" href="project.html">Portfolio</a></h4>
+                </div>
+            </div>
+        </section>
+        <!-- ./ page-header -->
+
+        <section class="case-study pt-130 pb-130 fade-wrapper">
+            <div class="container">
+                <div class="section-title text-center mb-60">
+                    <h2 class="title">Our Web Development and App Projects</h2>
+                    <p>Explore our portfolio of custom websites, web applications, and digital platforms that we've built for clients across various industries.</p>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#f0f8ff"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#4a90e2" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    
+                                    <!-- Map Background -->
+                                    <rect x="10%" y="30%" width="80%" height="40%" fill="#e9f5f9" stroke="#4a90e2" stroke-width="2" rx="5"/>
+                                    
+                                    <!-- Map Roads -->
+                                    <line x1="15%" y1="40%" x2="85%" y2="40%" stroke="#cccccc" stroke-width="3"/>
+                                    <line x1="15%" y1="55%" x2="85%" y2="55%" stroke="#cccccc" stroke-width="3"/>
+                                    <line x1="30%" y1="30%" x2="30%" y2="70%" stroke="#cccccc" stroke-width="2"/>
+                                    <line x1="60%" y1="30%" x2="60%" y2="70%" stroke="#cccccc" stroke-width="2"/>
+                                    
+                                    <!-- Food Truck Icons -->
+                                    <rect x="25%" y="35%" width="10%" height="5%" fill="#ff9800" rx="2"/>
+                                    <rect x="23%" y="35%" width="3%" height="5%" fill="#ff9800" rx="1"/>
+                                    <circle cx="26%" cy="43%" r="1%" fill="#333333"/>
+                                    <circle cx="34%" cy="43%" r="1%" fill="#333333"/>
+                                    
+                                    <rect x="55%" y="50%" width="10%" height="5%" fill="#e91e63" rx="2"/>
+                                    <rect x="53%" y="50%" width="3%" height="5%" fill="#e91e63" rx="1"/>
+                                    <circle cx="56%" cy="58%" r="1%" fill="#333333"/>
+                                    <circle cx="64%" cy="58%" r="1%" fill="#333333"/>
+                                    
+                                    <!-- Schedule List -->
+                                    <rect x="10%" y="65%" width="80%" height="5%" fill="#ffffff" stroke="#4a90e2" stroke-width="1" rx="2"/>
+                                    <rect x="10%" y="71%" width="80%" height="5%" fill="#ffffff" stroke="#4a90e2" stroke-width="1" rx="2"/>
+                                    <rect x="12%" y="65%" width="3%" height="5%" fill="#ff9800" rx="1"/>
+                                    <rect x="12%" y="71%" width="3%" height="5%" fill="#e91e63" rx="1"/>
+                                    
+                                    <text x="50%" y="85%" font-family="Arial" font-size="20" text-anchor="middle" fill="#4a90e2" font-weight="bold">SpaceCoast Food</text>
+                                    <text x="50%" y="92%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Food Truck Location & Schedules</text>
+                                </svg>
+                                <a class="cs-btn" href="https://spacecoast.food/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">01</span>
+                                <h3 class="title"><a href="https://spacecoast.food/" target="_blank">SpaceCoast Food</a></h3>
+                                <p>Platform tracking food truck schedules and locations in specific areas for easier discovery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#fff0f5"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#e91e63" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <circle cx="25%" cy="40%" r="12%" fill="#ffffff" stroke="#e91e63" stroke-width="2"/>
+                                    <circle cx="75%" cy="40%" r="12%" fill="#ffffff" stroke="#e91e63" stroke-width="2"/>
+                                    <circle cx="25%" cy="40%" r="8%" fill="#e91e63" opacity="0.5"/>
+                                    <circle cx="75%" cy="40%" r="8%" fill="#e91e63" opacity="0.5"/>
+                                    <rect x="20%" y="55%" width="60%" height="10%" fill="#ffffff" stroke="#e91e63" stroke-width="2" rx="5"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#e91e63" font-weight="bold">SitterSpots</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Childcare Service Platform</text>
+                                </svg>
+                                <a class="cs-btn" href="https://sitterspots.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">02</span>
+                                <h3 class="title"><a href="https://sitterspots.com/" target="_blank">SitterSpots</a></h3>
+                                <p>Babysitter and childcare service connection platform with booking capabilities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#f5f5f5"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#673ab7" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="10%" y="30%" width="25%" height="40%" fill="#ffffff" stroke="#673ab7" stroke-width="2" rx="3"/>
+                                    <rect x="40%" y="30%" width="25%" height="40%" fill="#ffffff" stroke="#673ab7" stroke-width="2" rx="3"/>
+                                    <rect x="70%" y="30%" width="20%" height="40%" fill="#ffffff" stroke="#673ab7" stroke-width="2" rx="3"/>
+                                    <rect x="15%" y="38%" width="15%" height="8%" fill="#673ab7" opacity="0.7" rx="2"/>
+                                    <rect x="15%" y="50%" width="15%" height="8%" fill="#673ab7" opacity="0.7" rx="2"/>
+                                    <rect x="45%" y="38%" width="15%" height="8%" fill="#673ab7" opacity="0.7" rx="2"/>
+                                    <rect x="45%" y="50%" width="15%" height="8%" fill="#673ab7" opacity="0.7" rx="2"/>
+                                    <rect x="75%" y="38%" width="10%" height="20%" fill="#673ab7" opacity="0.7" rx="2"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#673ab7" font-weight="bold">Rental Portal</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Property Management System</text>
+                                </svg>
+                                <a class="cs-btn" href="#"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">03</span>
+                                <h3 class="title"><a href="#">Rental Portal</a></h3>
+                                <p>Custom property management system with tenant applications and maintenance requests</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#f5fff5"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#388e3c" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <circle cx="50%" cy="40%" r="20%" fill="#ffffff" stroke="#388e3c" stroke-width="2"/>
+                                    <path d="M35,40 L65,40 M50,25 L50,55" stroke="#ff5252" stroke-width="2"/>
+                                    <circle cx="40%" cy="35%" r="3%" fill="#388e3c"/>
+                                    <circle cx="60%" cy="35%" r="3%" fill="#388e3c"/>
+                                    <circle cx="35%" cy="45%" r="2%" fill="#388e3c"/>
+                                    <circle cx="45%" cy="48%" r="2%" fill="#388e3c"/>
+                                    <circle cx="55%" cy="48%" r="2%" fill="#388e3c"/>
+                                    <circle cx="65%" cy="45%" r="2%" fill="#388e3c"/>
+                                    <rect x="25%" y="55%" width="50%" height="10%" fill="#ffffff" stroke="#388e3c" stroke-width="2" rx="5"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#388e3c" font-weight="bold">321 No Pests</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Pest Control Services</text>
+                                </svg>
+                                <a class="cs-btn" href="https://321nopests.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">04</span>
+                                <h3 class="title"><a href="https://321nopests.com/" target="_blank">321 No Pests</a></h3>
+                                <p>Pest control service website with appointment scheduling and service area information</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#fff9e6"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#ff9800" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <!-- Building silhouette -->
+                                    <polygon points="150,150 100,200 200,200" fill="#ffffff" stroke="#ff9800" stroke-width="2"/>
+                                    <rect x="120" y="165" width="20" height="35" fill="#ff9800" opacity="0.7"/>
+                                    <rect x="150" y="165" width="20" height="35" fill="#ff9800" opacity="0.7"/>
+                                    <polygon points="300,130 250,200 350,200" fill="#ffffff" stroke="#ff9800" stroke-width="2"/>
+                                    <rect x="280" y="155" width="15" height="45" fill="#ff9800" opacity="0.7"/>
+                                    <rect x="305" y="155" width="15" height="45" fill="#ff9800" opacity="0.7"/>
+                                    <!-- Crane -->
+                                    <line x1="400" y1="200" x2="400" y2="100" stroke="#ff9800" stroke-width="6"/>
+                                    <line x1="400" y1="100" x2="450" y2="100" stroke="#ff9800" stroke-width="4"/>
+                                    <line x1="450" y1="100" x2="450" y2="120" stroke="#ff9800" stroke-width="2"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#ff9800" font-weight="bold">Gabeco Builders</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Construction Services</text>
+                                </svg>
+                                <a class="cs-btn" href="https://gabeco.builders/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">05</span>
+                                <h3 class="title"><a href="https://gabeco.builders/" target="_blank">Gabeco Builders</a></h3>
+                                <p>Construction company website showcasing projects and services with quote requests</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#e8f5e9"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#2e7d32" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <!-- Landscape elements -->
+                                    <rect x="0%" y="65%" width="100%" height="10%" fill="#2e7d32" opacity="0.7"/>
+                                    <circle cx="20%" cy="55%" r="10%" fill="#2e7d32" opacity="0.9"/>
+                                    <circle cx="20%" cy="40%" r="8%" fill="#2e7d32" opacity="0.7"/>
+                                    <circle cx="20%" cy="28%" r="6%" fill="#2e7d32" opacity="0.5"/>
+                                    <circle cx="50%" cy="50%" r="12%" fill="#2e7d32" opacity="0.8"/>
+                                    <circle cx="50%" cy="33%" r="7%" fill="#2e7d32" opacity="0.6"/>
+                                    <circle cx="80%" cy="55%" r="9%" fill="#2e7d32" opacity="0.9"/>
+                                    <circle cx="80%" cy="42%" r="7%" fill="#2e7d32" opacity="0.7"/>
+                                    <circle cx="80%" cy="32%" r="5%" fill="#2e7d32" opacity="0.5"/>
+                                    <text x="50%" y="85%" font-family="Arial" font-size="20" text-anchor="middle" fill="#2e7d32" font-weight="bold">SOG Landscape</text>
+                                    <text x="50%" y="92%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Landscaping Services</text>
+                                </svg>
+                                <a class="cs-btn" href="https://sog-landscape.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">06</span>
+                                <h3 class="title"><a href="https://sog-landscape.com/" target="_blank">SOG Landscape</a></h3>
+                                <p>Landscaping business website with service offerings and project portfolio galleries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#f9f9f9"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#d32f2f" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <!-- Barbershop pole -->
+                                    <rect x="45%" y="30%" width="10%" height="35%" fill="#ffffff" rx="5"/>
+                                    <rect x="45%" y="30%" width="10%" height="35%" fill="none" stroke="#d32f2f" stroke-width="2" rx="5"/>
+                                    <rect x="45%" y="30%" width="10%" height="7%" fill="#d32f2f"/>
+                                    <rect x="45%" y="37%" width="10%" height="7%" fill="#ffffff" stroke="#d32f2f" stroke-width="1"/>
+                                    <rect x="45%" y="44%" width="10%" height="7%" fill="#d32f2f"/>
+                                    <rect x="45%" y="51%" width="10%" height="7%" fill="#ffffff" stroke="#d32f2f" stroke-width="1"/>
+                                    <rect x="45%" y="58%" width="10%" height="7%" fill="#d32f2f"/>
+                                    <!-- Scissors -->
+                                    <circle cx="30%" cy="40%" r="5%" fill="none" stroke="#d32f2f" stroke-width="2"/>
+                                    <circle cx="70%" cy="40%" r="5%" fill="none" stroke="#d32f2f" stroke-width="2"/>
+                                    <line x1="25%" y1="35%" x2="35%" y2="45%" stroke="#d32f2f" stroke-width="2"/>
+                                    <line x1="65%" y1="35%" x2="75%" y2="45%" stroke="#d32f2f" stroke-width="2"/>
+                                    <line x1="25%" y1="45%" x2="35%" y2="35%" stroke="#d32f2f" stroke-width="2"/>
+                                    <line x1="65%" y1="45%" x2="75%" y2="35%" stroke="#d32f2f" stroke-width="2"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#d32f2f" font-weight="bold">Darlene's Barbershop</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Haircut & Styling Services</text>
+                                </svg>
+                                <a class="cs-btn" href="https://darlenesbarbershop.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">07</span>
+                                <h3 class="title"><a href="https://darlenesbarbershop.com/" target="_blank">Darlene's Barbershop</a></h3>
+                                <p>Barbershop website with online appointment booking and service information</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#e3f2fd"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#1976d2" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    
+                                    <!-- Dashboard Background -->
+                                    <rect x="10%" y="30%" width="80%" height="40%" fill="#ffffff" stroke="#1976d2" stroke-width="2" rx="5"/>
+                                    
+                                    <!-- Chart Elements -->
+                                    <rect x="15%" y="35%" width="30%" height="30%" fill="#f5f5f5" rx="3"/>
+                                    <line x1="15%" y1="50%" x2="45%" y2="50%" stroke="#cccccc" stroke-width="1"/>
+                                    <line x1="15%" y1="42%" x2="45%" y2="42%" stroke="#cccccc" stroke-width="1"/>
+                                    <line x1="15%" y1="58%" x2="45%" y2="58%" stroke="#cccccc" stroke-width="1"/>
+                                    
+                                    <!-- Bar Chart -->
+                                    <rect x="17%" y="45%" width="5%" height="15%" fill="#1976d2" rx="1"/>
+                                    <rect x="24%" y="40%" width="5%" height="20%" fill="#1976d2" rx="1"/>
+                                    <rect x="31%" y="35%" width="5%" height="25%" fill="#1976d2" rx="1"/>
+                                    <rect x="38%" y="48%" width="5%" height="12%" fill="#1976d2" rx="1"/>
+                                    
+                                    <!-- Staff Icons -->
+                                    <circle cx="55%" cy="40%" r="4%" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+                                    <circle cx="65%" cy="40%" r="4%" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+                                    <circle cx="75%" cy="40%" r="4%" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+                                    <circle cx="55%" cy="40%" r="2%" fill="#1976d2"/>
+                                    <circle cx="65%" cy="40%" r="2%" fill="#1976d2"/>
+                                    <circle cx="75%" cy="40%" r="2%" fill="#1976d2"/>
+                                    
+                                    <!-- Capacity Meters -->
+                                    <rect x="52%" y="50%" width="6%" height="10%" stroke="#1976d2" stroke-width="1" fill="none" rx="1"/>
+                                    <rect x="52%" y="50%" width="6%" height="8%" fill="#4caf50" rx="1"/>
+                                    
+                                    <rect x="62%" y="50%" width="6%" height="10%" stroke="#1976d2" stroke-width="1" fill="none" rx="1"/>
+                                    <rect x="62%" y="50%" width="6%" height="5%" fill="#ff9800" rx="1"/>
+                                    
+                                    <rect x="72%" y="50%" width="6%" height="10%" stroke="#1976d2" stroke-width="1" fill="none" rx="1"/>
+                                    <rect x="72%" y="50%" width="6%" height="2%" fill="#f44336" rx="1"/>
+                                    
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#1976d2" font-weight="bold">Capacitater</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Staff Capacity Measurement App</text>
+                                </svg>
+                                <a class="cs-btn" href="https://capacitater.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">08</span>
+                                <h3 class="title"><a href="https://capacitater.com/" target="_blank">Capacitater</a></h3>
+                                <p>Staff capacity management application for tracking employee workloads and availability</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cs-item fade-top">
+                            <div class="cs-thumb">
+                                <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100%" height="100%" fill="#e8f5e9"/>
+                                    <rect x="5%" y="5%" width="90%" height="20%" fill="#2e7d32" rx="5"/>
+                                    <circle cx="12%" cy="15%" r="5%" fill="#ffffff"/>
+                                    <rect x="20%" y="12%" width="30%" height="6%" fill="#ffffff" rx="2"/>
+                                    <rect x="60%" y="12%" width="25%" height="6%" fill="#ffffff" rx="2"/>
+                                    <!-- Financial elements -->
+                                    <rect x="15%" y="35%" width="70%" height="30%" fill="#ffffff" stroke="#2e7d32" stroke-width="2" rx="5"/>
+                                    <!-- Graph -->
+                                    <polyline points="20,50 30,45 40,47 50,35 60,30 70,33 80,25" fill="none" stroke="#2e7d32" stroke-width="3" transform="translate(30, 80) scale(1.2)"/>
+                                    <!-- Dollar sign -->
+                                    <text x="25%" y="50%" font-family="Arial" font-size="30" text-anchor="middle" fill="#2e7d32" font-weight="bold">$</text>
+                                    <circle cx="25%" cy="50%" r="8%" fill="none" stroke="#2e7d32" stroke-width="2"/>
+                                    <!-- Percentage sign -->
+                                    <text x="75%" y="50%" font-family="Arial" font-size="30" text-anchor="middle" fill="#2e7d32" font-weight="bold">%</text>
+                                    <circle cx="75%" cy="50%" r="8%" fill="none" stroke="#2e7d32" stroke-width="2"/>
+                                    <text x="50%" y="75%" font-family="Arial" font-size="20" text-anchor="middle" fill="#2e7d32" font-weight="bold">CashQuiver</text>
+                                    <text x="50%" y="82%" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Financial Services Platform</text>
+                                </svg>
+                                <a class="cs-btn" href="https://cashquiver.com/" target="_blank"><i class="fa-light fa-arrow-right-long"></i></a>
+                            </div>
+                            <div class="cs-content">
+                                <span class="number">09</span>
+                                <h3 class="title"><a href="https://cashquiver.com/" target="_blank">CashQuiver</a></h3>
+                                <p>Financial services platform with investment tracking and portfolio management tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ case-study -->
+
+        <footer class="footer-section footer-2 footer-3 bg-dark-1 overflow-hidden">
+            <div class="shape"><img src="assets/img/shapes/footer-bg-shape.png" alt="footer"></div>
+            <div class="container">
+                <div class="footer-top">
+                    <h2 class="title" data-text-animation data-split="word" data-duration="1">Let's Start Your Next <br> Dream Project</h2>
+                    <a href="contact.html" class="footer-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="row footer-wrap">
+                    <ul class="footer-text-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=61580863580433" target="_blank">facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">pinterest</a></li>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="https://www.linkedin.com/company/101607358/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                                </div>
+                </div>
+            </div>
+                                </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row copyright-content content-2">
+                        <div class="col-md-6">
+                            <div class="site-logo"><a href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a></div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>© 2025 Aptecode. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ./ footer-section -->
+
+        </div>
+    </div>
+
+        <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+        <!--scrollup-->
+
+        <div id="theme-toogle" class="switcher-button">
+            <div class="switcher-button-inner-left"></div>
+            <div class="switcher-button-inner"></div>
+        </div>
+
+        <!-- JS here -->
+    <!-- jQuery (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Swiper JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- GSAP (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- Isotope (CDN) -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+    <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/venobox.min.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/vendor/meanmenu.js"></script>
+    <script src="assets/js/vendor/jquery.isotope.js"></script>
+    <script src="assets/js/vendor/swiper.min.js"></script>
+    <script src="assets/js/vendor/split-type.min.js"></script>
+    <script src="assets/js/vendor/gsap.min.js"></script>
+    <script src="assets/js/vendor/scroll-trigger.min.js"></script>
+    <script src="assets/js/vendor/scroll-smoother.js"></script>
+    <script src="assets/js/vendor/jquery.carouselTicker.js"></script>
+    <script src="assets/js/vendor/nice-select.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>
